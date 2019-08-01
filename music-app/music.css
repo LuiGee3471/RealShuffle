@@ -1,0 +1,164 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
+.music-app {
+  border: 1px solid black;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 375px;
+  height: 667px;
+  align-items: center;
+}
+
+.music-app > div {
+  width: 100%;
+  margin: auto;
+}
+
+.music-head {
+  color: azure;
+  text-align: center;
+  margin-bottom: 0 !important;
+  margin-top: 50px !important;
+}
+
+.music-title,
+.music-artist {
+  font-weight: lighter;
+}
+
+.music-title {
+  margin-bottom: 5px;
+}
+
+.music-artist {
+  font-size: 14px;
+  margin-top: 0;
+  color: darkgrey;
+}
+
+.music-album {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0 !important;
+  margin-top: 30px !important;
+}
+
+.music-album img {
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+}
+
+.music-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-control > div {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.music-time {
+  display: flex;
+  margin: 0 auto !important;
+}
+
+.time-bar {
+  border: 0.5px solid black;
+  height: 7px;
+  width: 180px !important;
+  margin: auto 0;
+}
+
+.time {
+  font-size: 13px;
+  width: 40px;
+  color: darkgrey;
+}
+
+.elapsed {
+  margin: 0 5px 0 auto;
+}
+
+.passed {
+  margin: 0 auto 0 10px;
+}
+
+.control-bar {
+  display: flex;
+  font-size: 35px;
+}
+
+.prev,
+.next {
+  margin: 0 auto;
+}
+
+.prev:hover,
+.next:hover,
+.play:hover,
+.repeat:hover,
+.shuffle:hover,
+.mute:hover {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.prev:active,
+.next:active,
+.play:active {
+  transform: scale(0.95);
+}
+
+.option-bar {
+  display: flex;
+  font-size: 20px;
+}
+
+.repeat,
+.shuffle {
+  margin: 0 auto;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+}
+
+.volume-bar {
+  width: 180px;
+  height: 0px;
+  border: 1px solid black;
+  margin: auto;
+  margin-left: 5px;
+  position: relative;
+}
+
+.volume-control {
+  border: 2px solid black;
+  box-sizing: border-box;
+  height: 10px;
+  position: absolute;
+  top: -4.5px;
+  right: -1px;
+}
+
+audio {
+  display: none;
+}
