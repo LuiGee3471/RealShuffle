@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Galactic Damages",
+    "artist": "Jingle Punks",
+    "time": 64,
+    "cover": "album-cover/Galactic_Damages.jpg",
+    "audio": "music/Galactic_Damages.mp3",
+    "played": []
+  },
+  {
+    "title": "Green Leaf Stomp",
+    "artist": "Jingle Punks",
+    "time": 75,
+    "cover": "album-cover/Green_Leaf_Stomp.jpg",
+    "audio": "music/Green_Leaf_Stomp.mp3",
+    "played": []
+  },
+  {
+    "title": "Hipsters Hopping",
+    "artist": "Doug Maxwell",
+    "time": 88,
+    "cover": "album-cover/Hipsters_Hopping.jpg",
+    "audio": "music/Hipsters_Hopping.mp3",
+    "played": []
+  },
+  {
+    "title": "Immortal",
+    "artist": "Jorge Hernandez",
+    "time": 82,
+    "cover": "album-cover/Immortal.jpg",
+    "audio": "music/Immortal.mp3",
+    "played": []
+  },
+  {
+    "title": "Pumping Irie",
+    "artist": "Jingle Punks",
+    "time": 80,
+    "cover": "album-cover/Pumping_Irie.jpg",
+    "audio": "music/Pumping_Irie.mp3",
+    "played": []
+  },
+  {
+    "title": "There Ain't No Other Way",
+    "artist": "Jingle Punks",
+    "time": 84,
+    "cover": "album-cover/There_Ain_t_No_Other_Way.jpg",
+    "audio": "music/There_Ain_t_No_Other_Way.mp3",
+    "played": []
+  },
+  {
+    "title": "Working It",
+    "artist": "Jingle Punks",
+    "time": 71,
+    "cover": "album-cover/Working_It.jpg",
+    "audio": "music/Working_It.mp3",
+    "played": []
+  }
+]
