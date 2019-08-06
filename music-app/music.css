@@ -27,6 +27,10 @@ body {
   margin: auto;
 }
 
+.pause {
+  display: none;
+}
+
 .music-head {
   color: azure;
   text-align: center;
@@ -84,6 +88,15 @@ body {
   height: 7px;
   width: 180px !important;
   margin: auto 0;
+  position: relative;
+}
+
+.progress {
+  height: 6px;
+  top: 1px;
+  width: 0px;
+  position: absolute;
+  background: yellow;
 }
 
 .time {
@@ -96,7 +109,7 @@ body {
   margin: 0 5px 0 auto;
 }
 
-.passed {
+.total {
   margin: 0 auto 0 10px;
 }
 
@@ -113,6 +126,7 @@ body {
 .prev:hover,
 .next:hover,
 .play:hover,
+.pause:hover,
 .repeat:hover,
 .shuffle:hover,
 .mute:hover {
@@ -122,8 +136,15 @@ body {
 
 .prev:active,
 .next:active,
-.play:active {
+.play:active,
+.pause:active,
+.repeat:active,
+.shuffle:active {
   transform: scale(0.95);
+}
+
+.on {
+  color: whitesmoke;
 }
 
 .option-bar {

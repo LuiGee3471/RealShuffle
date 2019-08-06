@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>BetterShuffle</title>
+    <title>RealShuffle</title>
     <link rel="stylesheet" href="music.css" />
     <link
       rel="stylesheet"
@@ -15,25 +15,33 @@
     <div id="app">
       <div class="music-app">
         <div class="music-head">
-          <h2 class="music-title">노래 제목</h2>
-          <h4 class="music-artist">아티스트</h4>
+          <h2 class="music-title">Working It</h2>
+          <h4 class="music-artist">Jingle Punks</h4>
         </div>
         <div class="music-album">
           <img
-            src="album-cover/adult-art-boyfriend-1449059.jpg"
+            id="album-cover"
+            src="album-cover/Working_It.jpg"
             alt="앨범 아트"
           />
         </div>
         <div class="music-control">
-          <audio src="music/Eighty_Three.mp3" controls autoplay></audio>
+          <audio
+            id="audio"
+            src="music/Working_It.mp3"
+            data-music-id="2"
+          ></audio>
           <div class="music-time">
             <div class="time elapsed">00:00</div>
-            <div class="time-bar"></div>
-            <div class="time passed">01:30</div>
+            <div class="time-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time total">01:30</div>
           </div>
           <div class="control-bar">
             <div class="prev"><i class="fas fa-backward"></i></div>
             <div class="play"><i class="far fa-play-circle"></i></div>
+            <div class="pause"><i class="far fa-pause-circle"></i></div>
             <div class="next"><i class="fas fa-forward"></i></div>
           </div>
           <div class="option-bar">
@@ -51,5 +59,6 @@
         </div>
       </div>
     </div>
+    <script src="music-app.js"></script>
   </body>
 </html>
